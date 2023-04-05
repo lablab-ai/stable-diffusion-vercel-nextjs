@@ -32,7 +32,7 @@ const handler = async (req, res) => {
 
 
     console.log(output)
-    res.staus(200).json(output)
+    res.status(200).json(output)
     //res.status(200).json([
      //   'https://replicate.delivery/pbxt/neqGIe66cYuPOUPM0JqokMfqsX9CRYgvkycUxyqlCKUjwJchA/out-0.png'
     //  ]
